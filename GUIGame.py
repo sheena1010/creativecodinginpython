@@ -27,7 +27,7 @@ level_display = Label(window, text="Level :" + str(level))
 level_display.pack()
 
 # create an image object using the gif file
-player_image = PhotoImage(file="greenChar.gif")
+player_image = PhotoImage(file="images/greenChar.gif")
 # use image object to create a character at position 200, 360
 mychar = canvas.create_image(200, 360, image = player_image)
 
